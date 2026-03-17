@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --gold: #c89b3c;
+  --gold-light: #f0e6d3;
+  --dark-bg: #0a0e1a;
+  --dark-card: #111827;
+  --dark-border: #1e2a3a;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: var(--gold-light);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
